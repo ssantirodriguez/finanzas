@@ -5,17 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>₱ Finanzas</title>
 
-  <!-- SUPABASE -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script>
-    const SUPABASE_URL = "https://pmtaaqdogvbsfwxqkuns.supabase.co";
-    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBtdGFhcWRvZ3Zic2Z3eHFrdW5zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5MTk2MjcsImV4cCI6MjA5MzQ5NTYyN30.HdEbXgromwKWmUg8qwZYTWPNHYp5tz-ff3TsSiVMl2c";
+<!-- SUPABASE -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-jsscript>
+  const SUPABASE_URL = "https://pmtaaqdogvbsfwxqkuns.supabase.co";
+  const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBtdGFhcWRvZ3Zic2Z3eHFrdW5zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5MTk2MjcsImV4cCI6MjA5MzQ5NTYyN30.HdEbXgromwKWmUg8qwZYTWPNHYp5tz-ff3TsSiVMl2c";
 
-    const supabase = supabase.createClient(
-      SUPABASE_URL,
-      SUPABASE_ANON_KEY
-    );
-  </script>
+  const supabase = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_ANON_KEY
+  );
+</script>
 
   <!-- TODO TU CSS ORIGINAL NO SE TOCA -->
 </head>
